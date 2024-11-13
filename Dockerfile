@@ -66,4 +66,4 @@ RUN ./manage-tModLoaderServer.sh install-tml --github --tml-version $TML_VERSION
 
 EXPOSE 7777
 
-ENTRYPOINT [ "/home/tml/.local/share/Terraria/tModLoader/Scripts/entrypoint.sh" ]
+ENTRYPOINT [ "entrypoint.sh" ]
